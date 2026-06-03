@@ -1,7 +1,5 @@
 # 🖥️ Modern Talking — Центр цифровой поддержки
 
-!\[day3](https://img.shields.io/badge/Задание-День\_3-blue) !\[git](https://img.shields.io/badge/Git-GitHub-orange) !\[status](https://img.shields.io/badge/статус-в\_работе-yellow)
-
 ## 📌 Название проекта
 
 **Modern Talking — Центр цифровой поддержки пользователей.**

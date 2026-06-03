@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Talking — Центр цифровой поддержки · Modern Talking</title>
+  <style>
+    :root{--blue:#1F4E79;--lblue:#2E9BD6;--bg:#f5f8fc;}
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#1b2733;background:var(--bg);line-height:1.6;}
+    header{background:linear-gradient(135deg,var(--lblue),var(--blue));color:#fff;text-align:center;padding:56px 20px;}
+    header img{width:120px;height:120px;}
+    header h1{font-size:2rem;margin:14px 0 6px;}
+    header p{opacity:.9;}
+    nav{background:var(--blue);text-align:center;padding:10px;position:sticky;top:0;}
+    nav a{color:#fff;text-decoration:none;margin:0 14px;font-weight:600;}
+    main{max-width:880px;margin:0 auto;padding:32px 20px;}
+    section{background:#fff;border-radius:14px;padding:24px 28px;margin-bottom:22px;box-shadow:0 2px 10px rgba(31,78,121,.08);}
+    h2{color:var(--blue);margin-bottom:12px;border-left:4px solid var(--lblue);padding-left:10px;}
+    ul{margin-left:22px;}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;}
+    .card{background:var(--bg);border-radius:10px;padding:14px;}
+    .card b{color:var(--blue);}
+    footer{text-align:center;padding:26px;color:#5a6b7b;font-size:.9rem;}
+    details{margin:8px 0;}
+    summary{cursor:pointer;font-weight:600;color:var(--blue);}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="../design/logo.svg" alt="Логотип">
+    <h1>Modern Talking</h1>
+    <p>Центр цифровой поддержки · Modern Talking · Тема: Вредоносное ПО</p>
+  </header>
+  <nav>
+    <a href="#team">Команда</a>
+    <a href="#instr">Инструкции</a>
+    <a href="#faq">FAQ</a>
+    <a href="#mat">Материалы</a>
+  </nav>
+  <main>
+    <section id="team">
+      <h2>👥 Команда</h2>
+      <p>Мы — ИТ-команда Центра цифровой поддержки. Помогаем пользователям безопасно работать в интернете и защищаться от вредоносного ПО.</p>
+      <div class="grid" style="margin-top:14px">
+        <div class="card"><b>Team Lead</b><br>Документация</div>
+        <div class="card"><b>Security</b><br>Анализ угроз</div>
+        <div class="card"><b>Консультант</b><br>FAQ и поддержка</div>
+        <div class="card"><b>Аналитик</b><br>Журнал обращений</div>
+        <div class="card"><b>Дизайнер</b><br>Логотип и оформление</div>
+      </div>
+    </section>
+    <section id="instr">
+      <h2>🛡️ Инструкции по безопасности</h2>
+      <ul>
+        <li>Установите антивирус и обновляйте систему.</li>
+        <li>Не открывайте подозрительные ссылки и вложения.</li>
+        <li>Используйте надёжные пароли и двухфакторную аутентификацию.</li>
+        <li>Делайте резервные копии важных данных.</li>
+      </ul>
+    </section>
+    <section id="faq">
+      <h2>❓ FAQ</h2>
+      <details><summary>Как создать надёжный пароль?</summary><p>Не менее 12 символов: буквы разного регистра, цифры и спецсимволы. Свой пароль для каждого сервиса.</p></details>
+      <details><summary>Что такое двухфакторная аутентификация?</summary><p>Второй шаг подтверждения входа (код из СМС или приложения) в дополнение к паролю.</p></details>
+      <details><summary>Как определить мошенника?</summary><p>Давят срочностью, просят коды из СМС и данные карты. Банк этого не требует.</p></details>
+      <p style="margin-top:10px">Полная база знаний (22 вопроса) — в разделе <code>knowledge-base/</code> репозитория.</p>
+    </section>
+    <section id="mat">
+      <h2>📁 Материалы проекта</h2>
+      <ul>
+        <li>Теория по Git — <code>docs/theory.md</code></li>
+        <li>База знаний — <code>knowledge-base/README.md</code></li>
+        <li>Технический кейс — <code>reports/case-report.md</code></li>
+        <li>Инструкция по Git — <code>GIT_GUIDE.md</code></li>
+        <li>Задачи проекта — <code>ISSUES.md</code></li>
+      </ul>
+    </section>
+  </main>
+  <footer>Центр цифровой поддержки · Modern Talking · 2026</footer>
+</body>
+</html>

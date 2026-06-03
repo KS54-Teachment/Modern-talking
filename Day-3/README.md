@@ -3,7 +3,7 @@
 <img src="design/logo.png" alt="Логотип команды" width="160"/>
 
 # Modern Talking — Центр цифровой поддержки
-### Modern Talking · Тема: Вредоносное ПО (Malware)
+### Modern Talking 
 
 ![status](https://img.shields.io/badge/status-active-success)
 ![team](https://img.shields.io/badge/team-Modern_Talking-blue)

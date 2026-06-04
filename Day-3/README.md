@@ -65,7 +65,7 @@ Day-3/
 ├── design/              — логотип
 └── scripts/             — вспомогательные скрипты
 ```
-Сайт https://merry-stroopwafel-beca5d.netlify.app/
+
 
 \---
 

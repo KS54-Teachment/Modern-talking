@@ -224,11 +224,8 @@
 
 
 
-\*\*Файл проекта:\*\* `future\_workspace.blend`
+\*\*Файл проекта:\*\* `main.blend`
 
-
-
-\*\*Рендер:\*\* `future\_workspace.png`
 
 
 
@@ -244,21 +241,15 @@
 
 .
 
-├── basic.blend
+├── main.blend
 
 ├── basic.png
 
-├── logo.blend
-
 ├── logo.png
-
-├── workspace.blend
 
 ├── workspace.png
 
-├── future\_workspace.blend
-
-└── future\_workspace.png
+└── future_workspace.png
 
 ```
 
